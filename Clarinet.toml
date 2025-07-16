@@ -5,6 +5,16 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.co-authoring]
+path = 'contracts/co-authoring.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.co-authoring_clar]
+path = 'contracts/co-authoring_clar.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.publishing-coordinator]
 path = 'contracts/publishing-coordinator.clar'
 clarity_version = 2
